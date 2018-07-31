@@ -40,7 +40,7 @@ describe('mostProfitableDepartment' , function(){
             {department : 'outdoor', sales : 12006, day : 'Friday'},
             {department : 'carpentry', sales : 16109, day : 'Friday'},
         ];
-      assert.equal(mostProfitableDepartment(salesData), 'undefined');
+      assert.equal(mostProfitableDepartment(salesData), 'Thursday');
     })
     it('should return nothing when no dataset is available', function(){
       assert.equal(mostProfitableDepartment(''), ' ')

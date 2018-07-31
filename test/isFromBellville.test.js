@@ -1,4 +1,4 @@
-var isFromBellVille = require('../isFromBellville.js');
+var isFromBellville = require('../isFromBellville.js');
 var assert = require('assert');
 
 describe('isFromBellville' , function(){
